@@ -50,6 +50,8 @@ make
 - cache variable
 - install
 - find_package
+- add_definitions
+- include_directories
 ---------
 
 ### MACROS:

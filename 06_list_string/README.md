@@ -23,7 +23,6 @@
     - APPEND
     - TOLOWER
     - TOUPPER
-
-
+    - LENGTH
 - param2 is string expression
 - the last parameter is the variable holding the output (param_out)

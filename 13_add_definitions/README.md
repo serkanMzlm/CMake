@@ -1,0 +1,1 @@
+**add_definitions():** Used to add definitions used at compile time. In addition, it can enable us to define macros that we can use directly in the system. The -D parameter is used to include a new macro in the system.
