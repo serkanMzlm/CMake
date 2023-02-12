@@ -1,0 +1,3 @@
+**add_library(my_add  add.cpp) :** Compiling all files with add_executable can cause problems in large projects, so we use add_library to compile libraries separately from our main file.
+
+**target_link_libraries(my_project PRIVATE my_add my_print) :** We connect add_library to add_executable. PUBLIC or PRIVATE keywords can be used in this section. <u>PUBLIC</u> my_project enables the transfer of these libraries to other files that take it as a library. <u>PRIVATE</u>my_project prevents these libraries from being exported to other files that receive it as libraries. If PUBLIC and PRIVATE are left blank, it means PUBLIC.
