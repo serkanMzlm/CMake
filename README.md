@@ -53,10 +53,19 @@ make
 ---------
 
 ### MACROS:
-- PROJECT_NAME       = The name specified in the project() command
-- CMAKE_PROJECT_NAME = Project name found in top directory
-- CMAKE_VERSION      = Cmake version (3.16.1)
+- PROJECT_NAME            = The name specified in the project() command
+- CMAKE_PROJECT_NAME      = Project name found in top directory
+- CMAKE_VERSION           = Cmake version (3.16.1)
     - CMAKE_MAJOR_VERSION 3
     - CMAKE_MINOR_VERSION 16
     - CMAKE_PATCH_VERSION 1
-- CMAKE_GENERATOR    = Cmake build shape (ninja makefiles...)
+- CMAKE_GENERATOR          = Cmake build shape (ninja makefiles...)
+- CMAKE_SOURCE_DIR         = Project directory
+- CMAKE_CURRENT_SOURCE_DIR = Indicates the path of the current source folder.,
+- PROJECT_SOURCE_DIR       = Where the project() function was last used
+- CMAKE_BINARY_DIR         = Returns the path to the directory where the project was built
+- CMAKE_HOME_DIRECTORY     = Project directory
+- CMAKE_SYSTEM             = Full name of operating system
+- CMAKE_SYSTEM_NAME        = Gives information about the operating system (linux, windows...)
+- CMAKE_INSTALL_PREFIX     = Specifies the installation directory of a software package
+
