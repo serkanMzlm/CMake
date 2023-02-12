@@ -1,0 +1,12 @@
+**if-elseif-endif:** Values ​​"1, TRUE, Y, YES, a non-zero number" ensure the condition is true. Values ​​"0, OFF, NO , FALSE, N, IGNORE, NOTFOUND, the empty string" cause the condition to be false.
+- DEFINED It is checked whether the variable is defined or not.
+- COMMAND Check if the command exists
+- EXISTS  It is checked whether the file exists in the specified location.
+ ------
+- NOT
+- AND
+- OR
+ ----
+- STRLESS
+- STRGREATER
+- STREQUAL
