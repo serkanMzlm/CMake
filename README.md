@@ -28,9 +28,6 @@ cmake -S . -B build
 cd build 
 make 
 ```
-
-
-
 ------
 
 ### COMMANDS:
@@ -45,6 +42,21 @@ make
 - set
 - list
 - string
-- 
+- if-elseif-else-endif
+- foreach
+- while
+- function
+- macro
+- cache variable
+- install
+- find_package
 ---------
 
+### MACROS:
+- PROJECT_NAME       = The name specified in the project() command
+- CMAKE_PROJECT_NAME = Project name found in top directory
+- CMAKE_VERSION      = Cmake version (3.16.1)
+    - CMAKE_MAJOR_VERSION 3
+    - CMAKE_MINOR_VERSION 16
+    - CMAKE_PATCH_VERSION 1
+- CMAKE_GENERATOR    = Cmake build shape (ninja makefiles...)
