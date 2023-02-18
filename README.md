@@ -52,6 +52,11 @@ make
 - find_package
 - add_definitions
 - include_directories
+- option
+- add_compile_options
+- include
+- file
+- execute_process
 ---------
 
 ### MACROS:
@@ -71,3 +76,16 @@ make
 - CMAKE_SYSTEM_NAME        = Gives information about the operating system (linux, windows...)
 - CMAKE_INSTALL_PREFIX     = Specifies the installation directory of a software package
 
+### File Information
+(in general these files are located in /usr)
+
+`
+find /usr -name <package_name>*.cmake
+`
+
+`
+find /usr -name <package_name>*.pc
+`
+
+- <package_name>.pc
+- <package_name>Config.cmake
