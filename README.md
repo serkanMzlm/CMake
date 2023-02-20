@@ -68,7 +68,7 @@ make
     - CMAKE_PATCH_VERSION 1
 - CMAKE_GENERATOR          = Cmake build shape (ninja makefiles...)
 - CMAKE_SOURCE_DIR         = Project directory
-- CMAKE_CURRENT_SOURCE_DIR = Indicates the path of the current source folder.,
+- CMAKE_CURRENT_SOURCE_DIR = Indicates the path of the current source folder.
 - PROJECT_SOURCE_DIR       = Where the project() function was last used
 - CMAKE_BINARY_DIR         = Returns the path to the directory where the project was built
 - CMAKE_HOME_DIRECTORY     = Project directory
