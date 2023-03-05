@@ -18,7 +18,7 @@ ____
 3. INTERFACE: Kitaplıkta kullanılmıyorsa ancak yürütülebilir dosyada kullanılıyorsa
 ____
 
-- **set(varvariable_name variable1 variable2 ...)**: Bir cmake değişken dizisi oluşturur. ${}, bir cmake değişkeninde bulunan değere erişmek için kullanılır.`"` işareti kullanmak zorunda değiliz. (ayrı kelimeler kullanılmayacaksa). Boşluk bir sonraki eleman anlamına gelir.
+- **set(varvariable_name variable1 variable2 ...)**: Bir cmake değişken dizisi oluşturur. \${}, bir cmake değişkeninde bulunan değere erişmek için kullanılır.`"` işareti kullanmak zorunda değiliz. (ayrı kelimeler kullanılmayacaksa). Boşluk bir sonraki eleman anlamına gelir.
 ```
 set(number 1 2 3)    = set(number 1;2;3)
 set(name "aa;bb;cc") = set(name aa bb cc)
